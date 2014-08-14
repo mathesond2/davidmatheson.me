@@ -1,7 +1,6 @@
 window.onload = function() {
 
     //jQuery to switch imgs on hover
-
     $('.dude').hover(function () {
         $('html').addClass('hover-man');
     }, function () {
