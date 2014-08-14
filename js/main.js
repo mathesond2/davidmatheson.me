@@ -1,5 +1,14 @@
 window.onload = function() {
 
+    //jQuery to switch imgs on hover
+
+    $('.dude').hover(function () {
+        $('html').addClass('hover-man');
+    }, function () {
+        $('html').removeClass('hover-man');
+    });
+
+
     // Open Twitter/share in a Pop-Up
     var $popup = document.getElementsByClassName('popup')[0];
     if (!$popup) {

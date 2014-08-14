@@ -20,3 +20,29 @@ p a {
 	text-decoration: underline;
 	&:hover {border: none;}
 }
+
+footer { background: transparent; }
+
+//test shit
+// .dude img {
+//   position: absolute;
+//   top: 0;
+//   left: 0;
+//   display: none;
+//   z-index: -50;
+// }
+ 
+// .dude a {
+// 	border: none;
+// 		// &:hover + img { display: inline-block; }
+// }
+
+.hover-man {
+	// h1 {color: white;}
+  background: url(../assets/img/big-time.png) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+//end test
