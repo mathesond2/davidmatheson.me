@@ -8,7 +8,7 @@ description: "designer and front end developer"
 author: "David Matheson"
 
 url: "http://mathesond2.github.io"
-#baseurl: "" <--not working
+baseurl: "davidmatheson.me" 
 
 # A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
 author-bio: "My name is David Matheson. I'm a designer and front end developer."
