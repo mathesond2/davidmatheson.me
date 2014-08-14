@@ -11,7 +11,7 @@
 
     .p-wrap {
       // padding: $spacing-ml $spacing-m;
-      transition: all .15s ease-in;
+      // transition: all .15s ease-in;
       &:active { 
         background: darken(white, 3%);
       }
@@ -26,9 +26,6 @@
             margin: 0;
           }
         }
-      }
-      @media (max-width: 942px) {
-        padding: $spacing-m $spacing-m;
       }
       p {
         display: inline;
