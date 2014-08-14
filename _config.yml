@@ -1,0 +1,40 @@
+# Title of your blog; shows in the header
+name: "David Matheson"
+
+# Description of your content (will only be used on Google Search)
+description: "designer and front end developer"
+
+# Your name. Will show in your footer + sidebar 
+author: "David Matheson"
+
+url: "http://m3xm.github.io"
+baseurl: "/portfolio"
+
+# A short presentation of yourself. Will show in the sidebar, under your name. Best usage would be between 30 to 50 words. 
+author-bio: "My name is David Matheson. I'm a designer and front end developer."
+
+# Social Accounts (mine, as placeholders)
+
+twitter: mathesondavid
+github: mathesond2
+linkedin: profile/view?id=356728732&trk=nav_responsive_tab_profile_pic
+
+# Google Analytics (you may want to changes these with yours or even delete :)
+
+ga_domain: m3xm.github.io
+ga_tracking_id: UA-47727049-1
+
+# Other (refer to http://jekyllrb.com/docs/home/ for further details on the below)
+
+markdown: kramdown
+permalink: pretty
+highlighter: pygments
+
+paginate: 1
+paginate_path: "/page/:num"
+
+# SCSS
+
+sass:
+  sass_dir: _scss
+  style: :compressed

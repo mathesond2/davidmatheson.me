@@ -1,0 +1,22 @@
+h1,time { font-family: $variant-family; }
+
+time { font-size: .6em; }
+
+.post-title {
+	display:inline-block;
+	font-family: $variant-family;
+}
+
+.col-md-8 { margin: 0 auto; }
+
+.container { margin-right: 0;}
+
+small { text-transform: none; }
+
+.share a { border:none; }
+
+p a {
+	border: none;
+	text-decoration: underline;
+	&:hover {border: none;}
+}
