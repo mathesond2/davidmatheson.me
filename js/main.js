@@ -1,12 +1,46 @@
 window.onload = function() {
 
-    //jQuery to switch imgs on hover
-    $('.dude').hover(function () {
-        $('html').addClass('hover-man');
-    }, function () {
-        $('html').removeClass('hover-man');
+    //intro h1 background text
+    $('#whats-up').hover(function () {
+        $('html').addClass('whats-up');
+        }, function () {
+        $('html').removeClass('whats-up');    
     });
-
+    $('#designer').hover(function () {
+        $('html').addClass('designer');
+        }, function () {
+        $('html').removeClass('designer');    
+    });
+    $('#front-end-developer').hover(function () {
+        $('html').addClass('front-end-developer');
+        }, function () {
+        $('html').removeClass('front-end-developer');    
+    });
+    $('#living').hover(function () {
+        $('html').addClass('living');
+        }, function () {
+        $('html').removeClass('living');    
+    });
+    $('#charlotte').hover(function () {
+        $('html').addClass('charlotte');
+        }, function () {
+        $('html').removeClass('charlotte');    
+    });
+    $('#find').hover(function () {
+        $('html').addClass('find');
+        }, function () {
+        $('html').removeClass('find');    
+    });
+    $('#jokes').hover(function () {
+        $('html').addClass('jokes');
+        }, function () {
+        $('html').removeClass('jokes');    
+    });
+    $('#working').hover(function () {
+        $('html').addClass('working');
+        }, function () {
+        $('html').removeClass('working');    
+    });
 
     // Open Twitter/share in a Pop-Up
     var $popup = document.getElementsByClassName('popup')[0];

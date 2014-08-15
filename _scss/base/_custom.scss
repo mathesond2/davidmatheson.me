@@ -23,12 +23,25 @@ p a {
 
 footer { background: transparent; }
 
-.hover-man {
-	// h1 {color: white;}
-  background: url(../assets/img/big-time.png) no-repeat center center fixed; 
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+.whats-up::before,
+.designer::before, 
+.front-end-developer::before, 
+.living::before, 
+.charlotte::before, 
+.find::before, 
+.jokes::before, 
+.working::before {
+	font-size: 200px; 
+	color: red;
+	font-family: $font-family;
+	font-weight: bold;
 }
-//end test
+
+.whats-up::before { content:"N2MH JUST CHILLIN"; }
+.designer::before { content:"IT'S TRUE"; }
+.front-end-developer::before { content:"A LOT OF MARK-UP AND SOME JS TOO"; font-size: 150px; }
+.living::before { content:"RESIDING?"; }
+.charlotte::before { content:"CLT"; font-size: 400px;}
+.find::before { content:"LET'S HANG"; font-size: 200px; }
+.jokes::before { content:"NOT THAT FUNNY"; }
+.working::before { content:"VERY HARD"; }
