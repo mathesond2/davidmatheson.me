@@ -5,7 +5,7 @@ date:   2014-08-20
 ---
 
  
-I'm currently creating a custom squarespace theme for George Howard, a tattoo artist in the Charlotte, NC, area. The existing site (gfharts.com) is in definite need of a re-design, in addition to being compatible with Stripe for making down deposits on services. Lately, I've been prototyping in Sketch, in order to get a better understanding of the software. One of the most rewarding aspects of the process so far has been the wireframing, getting to really dial in on the hierarchy of information with layout, shape and color. Here's a sneak peek:
+I'm currently creating a custom squarespace theme for George Howard, a tattoo artist in the Charlotte, NC, area. The [existing site](http://www.gfharts.com/) is in definite need of a re-design, in addition to being compatible with Stripe for making down deposits on services. Lately, I've been prototyping in Sketch, in order to get a better understanding of the software. One of the most rewarding aspects of the process so far has been the wireframing, getting to really dial in on the hierarchy of information with layout, shape and color. Here's a sneak peek:
 
 * Wireframes
 <img src="{{ site.baseurl }}/assets/img/wireframe-1.png">

@@ -12,5 +12,4 @@ This was a fun site made last year. Meditations In An Emergency is a book writte
 <img src="{{ site.baseurl }}/assets/img/frank-wireframe-3.png">
 <img src="{{ site.baseurl }}/assets/img/frank-wireframe-4.png">
 
-## Heading 2
-and [The Site](https://dl.dropboxusercontent.com/u/62523661/frank/index.html).
+## and [The Site](https://dl.dropboxusercontent.com/u/62523661/frank/index.html).
