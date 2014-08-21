@@ -1,0 +1,22 @@
+---
+layout: post
+title:  "New site: GFHArts"
+date:   2014-08-20 
+---
+
+ 
+I'm currently creating a custom squarespace theme for George Howard, a tattoo artist in the Charlotte, NC, area. The existing site (gfharts.com) is in definite need of a re-design, in addition to being compatible with Stripe for making down deposits on services. Lately, I've been prototyping in Sketch, in order to get a better understanding of the software. One of the most rewarding aspects of the process so far has been the wireframing, getting to really dial in on the hierarchy of information with layout, shape and color. Here's a sneak peek:
+
+* Wireframes
+<img src="{{ site.baseurl }}/assets/img/wireframe-1.png">
+<img src="{{ site.baseurl }}/assets/img/wireframe-2.png">
+<img src="{{ site.baseurl }}/assets/img/wireframe-3.png">
+<img src="{{ site.baseurl }}/assets/img/wireframe-4.png">
+
+* Mocks 
+<img src="{{ site.baseurl }}/assets/img/mock-1.png">
+<img src="{{ site.baseurl }}/assets/img/mock-2.png">
+<img src="{{ site.baseurl }}/assets/img/mock-3.png">
+
+
+I have a couple small things to take care of before proceeding with development, which shouldn't take entirely too long. Checking out the Squarespace developer documentation, creating this child theme should be a snap. We'll have to see. :)
