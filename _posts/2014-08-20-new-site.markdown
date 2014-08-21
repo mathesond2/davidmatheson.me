@@ -10,13 +10,13 @@ I'm currently creating a custom squarespace theme for George Howard, a tattoo ar
 * Wireframes
 <img src="{{ site.baseurl }}/assets/img/wireframe-1.png">
 <img src="{{ site.baseurl }}/assets/img/wireframe-2.png">
-<img src="{{ site.baseurl }}/assets/img/wireframe-3.png">
 <img src="{{ site.baseurl }}/assets/img/wireframe-4.png">
 
 * Mocks 
 <img src="{{ site.baseurl }}/assets/img/mock-1.png">
 <img src="{{ site.baseurl }}/assets/img/mock-2.png">
 <img src="{{ site.baseurl }}/assets/img/mock-3.png">
+<img src="{{ site.baseurl }}/assets/img/mock-4.png">
 
 
 I have a couple small things to take care of before proceeding with development, which shouldn't take entirely too long. Checking out the Squarespace developer documentation, creating this child theme should be a snap. We'll have to see. :)
