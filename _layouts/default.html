@@ -52,7 +52,7 @@
     console.log(data.results.collection1[0].property1.text )
     console.log(data)
 
-    $( ".result" ).append( data.results.collection1 )
+    $( ".result" ).append( data.results.collection1[0].property1.text)
     alert("did it");
   }
 
