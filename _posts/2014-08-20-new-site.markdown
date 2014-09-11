@@ -8,24 +8,28 @@ date:   2014-09-11
 I created a custom squarespace theme for George Howard, a traveling tattoo artist based in the Charlotte, NC, area. The existing site was in definite need of a re-design, in addition to being compatible with Stripe for making down deposits on services and selling products. Lately, I've been prototyping in Sketch, in order to get a better understanding of the software. One of the most rewarding aspects during the process was actually the wireframing, getting to really dial in on the hierarchy of information with layout, shape and color. Take a look:
 
 * Wireframes
-<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"><img src="{{ site.baseurl }}/assets/img/wireframe-1.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"></a>
 
-<a href="{{ site.baseurl }}/assets/img/wireframes/Desktop-1.png">blah</a>
-<a href="{{ site.baseurl }}/assets/img/wireframes/Desktop-2.png">blah</a>
-<a href="{{ site.baseurl }}/assets/img/wireframes/Tablet-1.png">blah</a>
-<a href="{{ site.baseurl }}/assets/img/wireframes/Tabley-2.png">blah</a>
-<a href="{{ site.baseurl }}/assets/img/wireframes/Mobile-1.png">blah</a>
-<a href="{{ site.baseurl }}/assets/img/wireframes/Mobile-2.png">blah</a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Mobile-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Mobile-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
 
 * Mocks 
-<img src="{{ site.baseurl }}/assets/img/mock-1.png">
-<img src="{{ site.baseurl }}/assets/img/mock-2.png">
-<img src="{{ site.baseurl }}/assets/img/mock-3.png">
-<img src="{{ site.baseurl }}/assets/img/mock-4.png">
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"></a>
+
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Mobile-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Mobile-2.png"><img src="{{ site.baseurl }}/assets/img/mocks/Desktop-2.png"></a>
 
 
 Previously, I figured the development aspect would be quicker than usual. However, I had to learn the hard way how hard it is to create custom templates via Squarespace, which doesnt allow you to develop locally, relies on their own servers to compile and take care of things, and is chock full of code bloat and corresponding overrides. I ended up creating a child theme from an existing one and mostly by way of my trusty CSS, being built with a strong emphasis on working well responsively. 
 
 Check this bad boy out: 
 
-[GFHArts](http://www.gfharts.com/) 
+## [GFHArts](http://www.gfharts.com/) 
