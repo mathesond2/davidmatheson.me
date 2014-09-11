@@ -52,8 +52,13 @@
     console.log(data.results.collection1[0].property1.text )
     console.log(data)
 
-    $( ".result" ).append( data.results.collection1.property1.text)
-    alert("i did it");
+    $( ".result" ).append( 
+      data.results.collection1[0].property1.text,
+      data.results.collection1[0].property2.text,
+      data.results.collection1[0].property3.text,
+      data.results.collection1[0].property4,
+      data.results.collection1[0].property5 )
+    alert("u did it");
   }
 
   $.ajax({
