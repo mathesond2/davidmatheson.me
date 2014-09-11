@@ -7,7 +7,7 @@ date:   2014-09-11
 <img src="{{ site.baseurl }}/assets/img/ssrep-screen.png">
 
 
-In early 2013 I met Niccola Coppola (real name!) at a bakery. He had been recently handicapped by Multiple Sclerosis and had been able to get his disability benefits, which are typically incredibly lengthy, in record time. He decided to start up a business making sure disabled individuals get their Social Security benefits and in a timely fashion. Inspired by his pragmatic demeanor, I designed and developed a slick one-page site to begin his company and engage with his customer base.
+In early 2013 I met Niccola Coppola (real name!) at a bakery. He had been recently handicapped by Multiple Sclerosis and had been able to get his disability benefits, notorious for their lengthy process, in record time. He decided to start up a business making sure disabled individuals get their Social Security benefits and in a timely fashion. Inspired by his pragmatic demeanor, I designed and developed a slick one-page site to begin his company and engage with his customer base.
 
 ## [SS Benefits Rep](https://dl.dropboxusercontent.com/u/62523661/nick/index.html) 
 
