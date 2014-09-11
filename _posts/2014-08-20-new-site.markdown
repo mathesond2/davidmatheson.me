@@ -12,22 +12,22 @@ I created a custom squarespace theme for George Howard, a traveling tattoo artis
 
 all wireframes
 
-<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Mobile-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Mobile-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-1.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-1.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-2.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Mobile-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/Mobile-1.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Mobile-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/Mobile-2.png"></a>
 
 * Mocks 
-<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"></a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/screenshot.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/screenshot.png"></a>
 
 all mocks
 
 <a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png">Desktop 1</a>
 <a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png">Desktop 2</a>
 <a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-1.png">Tablet 1</a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-2.png">Tabley 2</a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-2.png">Tablet 2</a>
 <a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Mobile-1.png">Mobile 1</a>
 <a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Mobile-2.png">Mobile 2</a>
 
