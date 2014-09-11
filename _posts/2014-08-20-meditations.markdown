@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Meditations in An Emergency"
+title:  "Site: Meditations in An Emergency"
 date:   2014-08-20 
 ---
 
