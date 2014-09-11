@@ -20,8 +20,11 @@
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
         <![endif]-->
 
-        <div class="result"></div>
-        <div id="showresults"></div>
+        <div class="meetup-title"></div>
+        <div class="place"></div>
+        <div class="address"></div>
+        <div class="date"></div>
+        <div class="time"></div>
 
         <div class="site-wrapper">
 
@@ -49,16 +52,20 @@
         function kimonoCallback(data) {
     // do something with the data
     // please make sure the scope of this function is global
-    console.log(data.results.collection1[0].property1.text )
+    // console.log(data.results.collection1[0].property1.text )
     console.log(data)
 
-    $( ".result" ).append( 
-      data.results.collection1[0].property1.text,
-      data.results.collection1[0].property2.text,
-      data.results.collection1[0].property3.text,
-      data.results.collection1[0].property4,
-      data.results.collection1[0].property5 )
-    alert("u did it");
+    $( ".meetup-title" ).append ( data.results.collection1[0].property1.text)
+    $( ".place" ).append ( data.results.collection1[0].property2.text)
+    $( ".address" ).append ( data.results.collection1[0].property3.text)
+    $( ".date" ).append ( data.results.collection1[0].property4)
+    $( ".time" ).append ( data.results.collection1[0].property5)
+      // data.results.collection1[0].property2.text,
+      // data.results.collection1[0].property3.text,
+      // data.results.collection1[0].property4,
+      // data.results.collection1[0].property5 
+      
+    alert("me did it");
   }
 
   $.ajax({
