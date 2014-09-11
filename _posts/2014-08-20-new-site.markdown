@@ -10,6 +10,8 @@ I created a custom squarespace theme for George Howard, a traveling tattoo artis
 * Wireframes
 <a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"></a>
 
+all wireframes
+
 <a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png"></a>
 <a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Desktop-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
 <a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/Tablet-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
@@ -20,12 +22,14 @@ I created a custom squarespace theme for George Howard, a traveling tattoo artis
 * Mocks 
 <a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"><img src="{{ site.baseurl }}/assets/img/screens-2/wireframes/screenshot.png"></a>
 
-<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-2.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Mobile-1.png"><img src="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png"></a>
-<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Mobile-2.png"><img src="{{ site.baseurl }}/assets/img/mocks/Desktop-2.png"></a>
+all mocks
+
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-1.png">Desktop 1</a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Desktop-2.png">Desktop 2</a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-1.png">Tablet 1</a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Tablet-2.png">Tabley 2</a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Mobile-1.png">Mobile 1</a>
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/Mobile-2.png">Mobile 2</a>
 
 
 Previously, I figured the development aspect would be quicker than usual. However, I had to learn the hard way how hard it is to create custom templates via Squarespace, which doesnt allow you to develop locally, relies on their own servers to compile and take care of things, and is chock full of code bloat and corresponding overrides. I ended up creating a child theme from an existing one and mostly by way of my trusty CSS, being built with a strong emphasis on working well responsively. 
