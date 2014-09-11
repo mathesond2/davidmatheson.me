@@ -52,8 +52,8 @@
     console.log(data.results.collection1[0].property1.text )
     console.log(data)
 
-    $( ".result" ).append( data.results.collection1[0].property1.text)
-    alert("did it");
+    $( ".result" ).append( data.results.collection1.property1.text)
+    alert("i did it");
   }
 
   $.ajax({
