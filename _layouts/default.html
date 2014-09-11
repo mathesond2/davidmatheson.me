@@ -3,82 +3,78 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-  <head>
-      <title>{{ site.name }} - {{ site.description }}</title>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-      <meta http-equiv="content-language" content="en-gb" />
-      <meta name="description" content="Designer and Front End Developer.">
-      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-      <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
-      <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
-      <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
-  </head>
+<head>
+  <title>{{ site.name }} - {{ site.description }}</title>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta http-equiv="content-language" content="en-gb" />
+  <meta name="description" content="Designer and Front End Developer.">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  <link href="//fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,700|Lora:400,700,400italic" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/css/main.css" />
+  <link href="atom.xml" type="application/atom+xml" rel="alternate" title="Site ATOM Feed">
+</head>
 
-  <body>
+<body>
     <!--[if lt IE 7]>
         <p class="chromeframe">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">activate Google Chrome Frame</a> to improve your experience.</p>
-    <![endif]-->
+        <![endif]-->
 
-<div class="result"></div>
-<div id="showresults"></div>
+        <div class="result"></div>
+        <div id="showresults"></div>
 
-    <div class="site-wrapper">
+        <div class="site-wrapper">
 
-      <header>
-        <div class="h-wrap">
-          <h1 class="title"><a href="http://davidmatheson.me/" title="Back to Homepage">D</a></h1>
-        </div>
-      </header>
+          <header>
+            <div class="h-wrap">
+              <h1 class="title"><a href="http://davidmatheson.me/" title="Back to Homepage">D</a></h1>
+            </div>
+          </header>
 
-      <main>
-        {{ content }}
-      </main>
+          <main>
+            {{ content }}
+          </main>
 
-      <footer>
-        <small>mathesond2@gmail.com</small>
-      </footer>
+          <footer>
+            <small>mathesond2@gmail.com</small>
+          </footer>
 
-    </div> 
-    {% comment %} site-wrapper {% endcomment %}
+        </div> 
+        {% comment %} site-wrapper {% endcomment %}
 
-    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
 
-    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
-<script>
-  function kimonoCallback(data) {
+        <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+        <script>
+        function kimonoCallback(data) {
     // do something with the data
     // please make sure the scope of this function is global
     console.log(data)
-  $( ".result" ).html( data );
-  $( ".result" ).append( data );
-
-  alert("did it");
-
-  var result = $('<div />').append(data).find('#showresults').html();
-            $('#showresults').html(result);
-
+    $( ".result" ).append( data );
+    alert("we did it");
   }
 
   $.ajax({
     "url":"https://www.kimonolabs.com/api/20s6z94q?apikey=e44f0aa2a4eaf77f9092319d3e9ad9a0&callback=kimonoCallback",
     "crossDomain":true,
     "dataType":"jsonp"
-});
-</script>
-    <script src="{{ site.baseurl }}/js/main.js"></script>
-    {% comment %} Google Analytics {% endcomment %}
-    {% if site.ga_tracking_id and site.ga_domain %}
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  }).done(function ( data ) {
+  $('#showresults').append(data);
+});;
+  </script>
+  <script src="{{ site.baseurl }}/js/main.js"></script>
+  {% comment %} Google Analytics {% endcomment %}
+  {% if site.ga_tracking_id and site.ga_domain %}
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
 
-        ga('create', '{{ site.ga_tracking_id }}', '{{ site.ga_domain }}');
-        ga('send', 'pageview');
-      </script>
-    {% endif %}
+  ga('create', '{{ site.ga_tracking_id }}', '{{ site.ga_domain }}');
+  ga('send', 'pageview');
+  </script>
+  {% endif %}
 
-  </body>
+</body>
 </html>
