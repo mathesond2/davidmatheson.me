@@ -51,16 +51,19 @@
     // please make sure the scope of this function is global
     console.log(data)
     $( ".result" ).append( data );
-    alert("we did it");
+
+    alert("did it").done(function ( data ) {
+  $('#showresults').append(data);
+
+
   }
 
   $.ajax({
     "url":"https://www.kimonolabs.com/api/20s6z94q?apikey=e44f0aa2a4eaf77f9092319d3e9ad9a0&callback=kimonoCallback",
     "crossDomain":true,
     "dataType":"jsonp"
-  }).done(function ( data ) {
-  $('#showresults').append(data);
-});;
+  });
+
   </script>
   <script src="{{ site.baseurl }}/js/main.js"></script>
   {% comment %} Google Analytics {% endcomment %}
