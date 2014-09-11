@@ -49,8 +49,10 @@
         function kimonoCallback(data) {
     // do something with the data
     // please make sure the scope of this function is global
+    console.log(data.results.collection1 )
     console.log(data)
-    $( ".result" ).append( data.results.collection1 );
+
+    $( ".result" ).append( data.results.collection1 )
     alert("did it");
   }
 
