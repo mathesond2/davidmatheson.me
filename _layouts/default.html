@@ -51,6 +51,8 @@
     // please make sure the scope of this function is global
     console.log(data)
   $( ".result" ).html( data );
+  $( ".result" ).append( data );
+
   alert("did it");
 
   var result = $('<div />').append(data).find('#showresults').html();
