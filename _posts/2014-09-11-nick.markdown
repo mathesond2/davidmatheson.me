@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "site: SS REP"
+title:  "Site: SS REP"
 date:   2014-09-11 
 ---
 
