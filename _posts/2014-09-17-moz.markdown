@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Site: TXTSFROMMORRISSEY"
-date:   2014-09-11 
+date:   2014-09-17 
 ---
 
 <img src="{{ site.baseurl }}/assets/img/moz-screen.png">
