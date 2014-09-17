@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Site: TXTSFROMMORRISSEY"
+title:  "New Site: TXTSFROMMORRISSEY"
 date:   2014-09-17 
 ---
 
