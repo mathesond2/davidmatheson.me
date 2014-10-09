@@ -14,12 +14,8 @@ The issue was a similar one for all start-ups that experience a huge amount of g
 
 [Paul Drake](http://www.drakedesign.co/) (a fantastic dude) designed and I developed a single-page application that helped people match a name and title to a face, giving people the options to contact them via email or phone.
 
-<a href="{{ site.baseurl }}/assets/img/boomtown/1.png"><img src="{{ site.baseurl }}/assets/img/boomtown/1.png"></a>
+<a href="{{ site.baseurl }}/assets/img/boomtown/screens.png"><img src="{{ site.baseurl }}/assets/img/boomtown/screens.png"></a>
 
-<a href="{{ site.baseurl }}/assets/img/boomtown/2.png"><img src="{{ site.baseurl }}/assets/img/boomtown/2.png"></a>
-
-
-<a href="{{ site.baseurl }}/assets/img/boomtown/3.png"><img src="{{ site.baseurl }}/assets/img/boomtown/3.png"></a>
 
 I'm most proud of it because it is a prime example of creating valuable technology that helps keep people connected to each other in a meaningful way, and it really helped maintain the culture that made the company so great in the first place.
 
