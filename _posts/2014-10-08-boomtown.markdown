@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Work at BoomTown "
+date:   2014-10-09 
+---
+
+As a UI Developer at BoomTown, I created functional interfaces for their flagship product, a CRM for mid-large size real estate companies and brokerage firms. In addition to increasing the scope of the CRM's functionality with new features, I also maintained and kept the existing front-end codebase clean. While most of the work is clearly unable to show because of non-disclosure agreements, I do have one piece that I'm incredibly proud of and see as a relevant display of my work and time at BoomTown, an internal directory app called BoomBook.
+
+
+The issue was a similar one for all start-ups that experience a huge amount of growth within a small amount of time: how do we scale our company while still keeping the company culture that is such an integral part of our success? First things first, you have to know your co-workers.
+
+"Who's that person who works down the hallway?"
+"what was his name again?"
+
+[Paul Drake](http://www.drakedesign.co/) (a fantastic dude) designed and I developed a single-page application that helped people match a name and title to a face, giving people the options to contact them via email or phone.
+
+<a href="{{ site.baseurl }}/assets/img/boomtown/departments.png"><img src="{{ site.baseurl }}/assets/img/boomtown/departments.png"></a>
+
+<a href="{{ site.baseurl }}/assets/img/boomtown/departments_designers.png"><img src="{{ site.baseurl }}/assets/img/boomtown/departments_designers.png"></a>
+
+
+<a href="{{ site.baseurl }}/assets/img/boomtown/contact_profile.png"><img src="{{ site.baseurl }}/assets/img/boomtown/contact_profile.png"></a>
+
+I'm most proud of it because it is a prime example of creating valuable technology that helps keep people connected to each other in a meaningful way, and it really helped maintain the culture that made the company so great in the first place.
+
+Also, I'm proud of it because it was a technical feat for me, being the first large-scale app I had created with over 140+ regular users, using html templating (handlebarsjs), working with jQuery Mobile and Python in conjunction with MongoDB, which were previously completely uncharted waters.
+
+
