@@ -1,0 +1,32 @@
+---
+layout: post
+title:  "New site: David Cross: running coach and consultant"
+date:   2014-10-09 
+---
+
+David Cross is easily one of the funnest people I've ever met. I met him a few years back when I was stil in the bakery business, and he easily became my favorite person. Previously a professional golf player, David began running and like everything else he does, he did it full on, becoming a professional ultra-runner (those crazy guys that run like 60 miles in a day) and triathlete, respectively. The site for his running business, Bearded Wonder, was in desperate need of a redesign, so I hooked him up with a slick one-pager, focusing on creating work that reflected positivity and upbeat-ness (is that a word?) shown in David's everyday interactions with customers and strangers alike. 
+
+* Wireframes
+<a href="{{ site.baseurl }}/assets/img/dcross-screens/dcross-wireframe.png"><img src="{{ site.baseurl }}/assets/img/dcross-screens/dcross-wireframe.png"></a>
+
+<a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/dcross-wireframes.zip">wireframes.zip</a>
+
+* Mocks 
+<a href="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock-1.png"><img src="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock-1.png"></a>
+
+<a href="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock.png"><img src="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock.png"></a>
+
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/dcross-mocks.zip">Initial Mocks</a>
+
+
+<a href="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock-final.png"><img src="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock-final.png"></a>
+
+<a href="{{ site.baseurl }}/assets/img/screens-2/mocks/dcross-mocks-final.zip">Final Mocks</a>
+
+
+
+Working this project was helpful because I often find myself jumping early into development. Since this project had a lighter timeline and less constraints, I spent much more of my time focusing on layout, design, and the usability. For example, I really wanted to use a JS plugin to make the two sections snap, but the amount of overhead to make that one effect happen would have been too much, performance-wise, and so I chose to leave it out.There are a few performance issues that I've had to factor in, because I typically dont use video, but of course, that always allows for more growth. Take a look!
+
+SITE: 
+
+## [Bearded Wonder](http://www.beardedwonder.net/) 
