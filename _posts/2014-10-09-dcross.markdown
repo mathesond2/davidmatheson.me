@@ -1,17 +1,19 @@
 ---
 layout: post
-title:  "New site: David Cross: running coach and consultant"
+title:  "New site: David Cross "
 date:   2014-10-09 
 ---
 
 David Cross is easily one of the funnest people I've ever met. I met him a few years back when I was stil in the bakery business, and he easily became my favorite person. Previously a professional golf player, David began running and like everything else he does, he did it full on, becoming a professional ultra-runner (those crazy guys that run like 60 miles in a day) and triathlete, respectively. The site for his running business, Bearded Wonder, was in desperate need of a redesign, so I hooked him up with a slick one-pager, focusing on creating work that reflected positivity and upbeat-ness (is that a word?) shown in David's everyday interactions with customers and strangers alike. 
 
 * Wireframes
+
 <a href="{{ site.baseurl }}/assets/img/dcross-screens/dcross-wireframe.png"><img src="{{ site.baseurl }}/assets/img/dcross-screens/dcross-wireframe.png"></a>
 
 <a href="{{ site.baseurl }}/assets/img/screens-2/wireframes/dcross-wireframes.zip">wireframes.zip</a>
 
-* Mocks 
+* Mocks
+
 <a href="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock-1.png"><img src="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock-1.png"></a>
 
 <a href="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock.png"><img src="{{ site.baseurl }}/assets/img/dcross-screens/dcross-mock.png"></a>
