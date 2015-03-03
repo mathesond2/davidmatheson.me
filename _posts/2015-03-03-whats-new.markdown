@@ -7,13 +7,13 @@ date:   2015-03-3
 I've turned full-blown freelance as of late, and in the past four months I've:
 
 #### + completely redesigned the UI and re-developed the front end of a flagship product.
-####([HomeTrackR](https://hometrackr.com/)'s Consumer Report)
+([HomeTrackR](https://hometrackr.com/)'s Consumer Report)
 
 #### + wrote the mark-up for an Angular Web App.
-####([Duty Status](http://www.dutystatus.com/)).
+([Duty Status](http://www.dutystatus.com/)).
 
 #### + done most front end development for a new social platform for songwriters.
-####([Songistry](https://songistry.com/))
+([Songistry](https://songistry.com/))
 
 
 ## plenty of updates, and much more details soon. :)
