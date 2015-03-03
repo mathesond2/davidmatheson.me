@@ -10,7 +10,7 @@ I've turned full-blown freelance as of late, and in the past four months I've:
 ([HomeTrackR](https://hometrackr.com/)'s Consumer Report)
 
 #### + wrote the mark-up for an Angular Web App.
-([Duty Status](http://www.dutystatus.com/)).
+([Duty Status](http://www.dutystatus.com/))
 
 #### + done most front end development for a new social platform for songwriters.
 ([Songistry](https://songistry.com/))
