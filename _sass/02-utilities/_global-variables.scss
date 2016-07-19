@@ -1,0 +1,58 @@
+// =============================================================================
+// Font Stacks
+// =============================================================================
+$font-stack--light        : 'Helvetica Neue for IBM Light', Helvetica, sans-serif;
+$font-stack--medium       : 'Helvetica Neue for IBM Medium', Helvetica, sans-serif;
+$font-stack--roman        : 'Helvetica Neue for IBM Roman', Helvetica, sans-serif;
+$font-stack--roman-italic : 'Helvetica Neue for IBM Roman Italic', Helvetica, sans-serif;
+$font-stack--bold         : 'Helvetica Neue for IBM Bold', Helvetica, sans-serif;
+
+// =============================================================================
+// Font Sizes and Leading
+// =============================================================================
+$font-size-base                : 16px;
+$font-size-nav                 : 1.125  * $font-size-base; // 18px
+$font-size-h1                  : 4.1875 * $font-size-base; // 67px
+$font-size-h1--mobile          : 3.3125 * $font-size-base; // 53px
+$font-size-h2                  : 2.25   * $font-size-base; // 36px
+$font-size-h1--mobile-light    : 1.9375 * $font-size-base; // 31px
+$font-size-call-to-action      : 1.5    * $font-size-base; // 24px
+$font-size-h2--mobile          : 1.375  * $font-size-base; // 22px
+$font-size-mobile-strong       : 2.625  * $font-size-base; // 42px
+$font-size-body-mobile         : .75    * $font-size-base; // 12px
+$font-size-nav-card-title-sub  : 1.75   * $font-size-base; // 28px
+$font-size-nav-card-title      : 3      * $font-size-base; // 48px
+$font-size-nav-card-mobile     : 1.625  * $font-size-base; // 26px
+$leading                       : 1.5    * $font-size-base; // 24px
+$line-height-body-copy         : 1.5    * $leading;        // 36px
+$line-height-body-intro-copy   : 1.25   * $leading;        // 30px
+$line-height-body-intro-mobile : 1.083   * $leading;        // 30px
+$line-height-h1                : 3      * $leading;        // 72px
+$line-height-h2                : 1.83   * $leading;        // 44px
+
+// =============================================================================
+// Grid Sizes
+// =============================================================================
+$grid-column       : 60px;                        // 60px
+$grid-gutter       : $grid-column / 3;            // 20px
+$grid-gutter-split : $grid-gutter / 2;            // 10px
+$grid-column-full  : $grid-column + $grid-gutter; // 80px
+$grid-line-height  : 1.5 * $leading;              // 36px
+$offset-sidebar    : 14px;
+
+// =============================================================================
+// Responsive Breakpoints
+// =============================================================================
+$width-16u : 16 * $grid-column-full; // 1280px
+$width-12u : 12 * $grid-column-full; // 960px
+$width-8u  : 8 * $grid-column-full;  // 640px
+$width-4u  : 4 * $grid-column-full;  // 320px
+
+// =============================================================================
+// Margins
+// =============================================================================
+$margin-h2                           : 2.5 * $font-size-base;     // 40px
+$margin-h4--bottom                   : 4px;
+$margin-bottom--main-content-section : 3.75 * $leading;           //90px
+$margin-bottom--list-item            : .625 * $font-size-base;    //10px
+$margin-top--list-item               : $margin-bottom--list-item;
