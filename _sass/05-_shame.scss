@@ -8,15 +8,16 @@
 //    http://csswizardry.com/2013/04/shame-css/
 
 body {
-   background-color: #002fa7;
-   color: #fff;
+   background-color: #fff;
+   color: #002fa7;
+   font-family: 'Roboto', sans-serif;
    a,
    .site-title {
-      color: #fff;
+      color: #002fa7;
       &:hover,
       &:active,
       &:visited {
-         color: #fff;
+         color: #002fa7;
       }
    }
 }
@@ -31,5 +32,10 @@ footer {
 
 
 .page-heading {
-   font-size: 72px;
+   margin-top: 50px;
+   margin-bottom: 80px;
+   font: {
+      size: 48px;
+      weight: 100;
+   }
 }
