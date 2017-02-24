@@ -7,3 +7,29 @@
 //
 //    http://csswizardry.com/2013/04/shame-css/
 
+body {
+   background-color: #002fa7;
+   color: #fff;
+   a,
+   .site-title {
+      color: #fff;
+      &:hover,
+      &:active,
+      &:visited {
+         color: #fff;
+      }
+   }
+}
+
+
+footer {
+   li {
+      display: inline-block;
+      margin-right: 20px;
+   }
+}
+
+
+.page-heading {
+   font-size: 72px;
+}
