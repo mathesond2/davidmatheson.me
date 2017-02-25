@@ -30,7 +30,9 @@ body {
 }
 
 .social-media-list {
-   text-align: center;
+   @media screen and (max-width: 445px) {
+      text-align: center;
+   }
 }
 
 .social-media-list-item {
