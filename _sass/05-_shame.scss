@@ -8,14 +8,9 @@
 //    http://csswizardry.com/2013/04/shame-css/
 
 body {
-   // background: url(../images/me.png);
-   background-repeat: no-repeat;
-   background-size: 300px;
-    background-position: center;
    background-color: #fff;
    color: #002fa7;
-   // font-family: 'Roboto', sans-serif;
-   font-family: 'Marcellus', serif; //I like this
+   font-family: 'Marcellus', serif;
    a,
    .site-title {
       color: #002fa7;
@@ -27,6 +22,34 @@ body {
          color: #002fa7;
       }
    }
+}
+
+p,
+.post-meta {
+   font-family: 'Roboto', sans-serif;
+}
+
+.post-meta {
+   color: #828282;
+   font-weight: 300;
+}
+
+.post {
+   h1,
+   h2,
+   h3,
+   h4 {
+      font-family: 'Marcellus', serif;
+   }
+
+   h4 {
+      font-size: 32px;
+   }
+}
+
+
+p {
+   line-height: 28px;
 }
 
 .social-media-list {
@@ -59,15 +82,14 @@ body {
    font-size: 16px;
 }
 
+.post-title {
+   font-size: 48px;
+}
+
 .circle-icon {
    width: 40px;
    height: 40px;
    margin-top: 20px;
    border-radius: 50%;
    background-color: #002fa7;
-}
-
-h4 {
-   font-size: 24px;
-   font-weight: 400;
 }
