@@ -7,3 +7,9 @@
     background-image: url($image);
   }
 }
+
+@mixin media-query($device) {
+ @media screen and (max-width: $device) {
+     @content;
+ }
+}
