@@ -33,6 +33,10 @@ ul, ol, dl, figure,
    }
 }
 
+.wide-wrapper {
+   max-width: 1400px;
+}
+
 %clearfix {
    &:after {
      content: "";
