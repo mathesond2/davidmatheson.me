@@ -18,6 +18,7 @@ $font-weight--lightest         : 100;
 // Font Sizes and Leading
 // =============================================================================
 $font-size-base                : 16px;
+$font-size-small               : .875   * $font-size-base;    // 14px
 $font-size-post-subtitle       : 2      * $font-size-base;    // 32px
 $font-size-page-heading        : 3      * $font-size-base;    // 48px
 $leading                       : 1.5    * $font-size-base;    // 24px
