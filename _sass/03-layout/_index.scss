@@ -2,10 +2,6 @@
    min-height: 56px;
 }
 
-.site-title {
-   float: left;
-}
-
 .site-footer,
 .page-content {
    padding: $spacing-unit 0;
@@ -35,6 +31,7 @@
       margin-top: 20px;
       font-size: $font-size-post-subtitle;
    }
+
    p {
       color: $black-core;
    }
