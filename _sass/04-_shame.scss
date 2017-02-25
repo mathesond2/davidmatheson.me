@@ -10,30 +10,55 @@
 body {
    // background: url(../images/me.png);
    // background-repeat: no-repeat;
-   background-color: #fff;
-   color: #002fa7;
-   font-family: 'Marcellus', serif;
-   a,
-   .site-title {
-      color: #002fa7;
-      text-decoration: none;
+   background-color: $white-core;
+   color: $blue-primary;
+   font-family: $font-stack--serif;
+}
 
-      &:hover,
-      &:active,
-      &:visited {
-         color: #002fa7;
-      }
+a,
+.site-title {
+   color: $blue-primary;
+   text-decoration: none;
+   &:hover,
+   &:active,
+   &:visited {
+      color: $blue-primary;
    }
 }
 
-p,
-.post-meta {
-   font-family: 'Roboto', sans-serif;
+p {
+   font-family: $font-stack--sans-serif;
+   line-height: 28px;
+}
+
+.page-heading {
+   margin-top: 50px;
+   margin-bottom: 80px;
+   font: {
+      size: $font-size-page-heading;
+      weight: $font-weight--lightest;
+   }
+   @media screen and (max-width: 445px) {
+      font-size: $font-size-post-subtitle;
+   }
+}
+
+.social-media-list-item {
+   display: inline-block;
+   margin-right: 20px;
+   font-weight: $font-weight--lightest;
+}
+
+.home-icon {
+   width: 30px;
+   height: 30px;
+   background-color: $blue-primary;
 }
 
 .post-meta {
-   color: #828282;
-   font-weight: 300;
+   color: $grey-primary;
+   font-family: $font-stack--sans-serif;
+   font-weight: $font-weight--light;
 }
 
 .post {
@@ -41,53 +66,24 @@ p,
    h2,
    h3,
    h4 {
-      font-family: 'Marcellus', serif;
+      font-family: $font-stack--serif;
    }
 
    h4 {
-      font-size: 32px;
+      font-size: $font-size-post-subtitle;
       margin-top: 20px;
    }
    p {
-      color: #1b1b1b;
-   }
-}
-
-
-p {
-   line-height: 28px;
-}
-
-.social-media-list-item {
-   display: inline-block;
-   margin-right: 20px;
-   font-weight: 100;
-}
-
-.page-heading {
-   margin-top: 50px;
-   margin-bottom: 80px;
-   font: {
-      size: 48px;
-      weight: 100;
-   }
-   @media screen and (max-width: 445px) {
-      font-size: 32px;
+      color: $black-core;
    }
 }
 
 .post-content {
-   font-family: 'Roboto', sans-serif;
-   font-weight: 300;
-   font-size: 16px;
+   font-family: $font-stack--sans-serif;
+   font-weight: $font-weight--light;
+   font-size: $font-size-base;
 }
 
 .post-title {
-   font-size: 48px;
-}
-
-.home-icon {
-   width: 30px;
-   height: 30px;
-   background-color: #002fa7;
+   font-size: $font-size-page-heading;
 }

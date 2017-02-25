@@ -1,13 +1,25 @@
 // =============================================================================
+// Colors
+// =============================================================================
+$blue-primary                  : #002fa7;
+$white-core                    : #fff;
+$black-core                    : #1b1b1b;
+$grey-primary                  : #828282;
+
+// =============================================================================
 // Font Stacks
 // =============================================================================
+$font-stack--serif             : 'Marcellus', serif;
+$font-stack--sans-serif        : 'Roboto', sans-serif;
+$font-weight--light            : 300;
+$font-weight--lightest         : 100;
 
 // =============================================================================
 // Font Sizes and Leading
 // =============================================================================
 $font-size-base                : 16px;
-$font-size-nav                 : 1.125  * $font-size-base;    // 18px
-$font-size-h1                  : 4.1875 * $font-size-base;    // 67px
+$font-size-post-subtitle       : 2      * $font-size-base;    // 32px
+$font-size-page-heading        : 3      * $font-size-base;    // 48px
 $leading                       : 1.5    * $font-size-base;    // 24px
 $line-height-body-copy         : 1.5    * $leading;           // 36px
 
