@@ -8,6 +8,8 @@
 //    http://csswizardry.com/2013/04/shame-css/
 
 body {
+   // background: url(../images/me.png);
+   // background-repeat: no-repeat;
    background-color: #fff;
    color: #002fa7;
    font-family: 'Marcellus', serif;
@@ -85,8 +87,8 @@ p {
 }
 
 .circle-icon {
-   width: 40px;
-   height: 40px;
+   width: 30px;
+   height: 30px;
    margin-top: 20px;
    border-radius: 50%;
    background-color: #002fa7;
