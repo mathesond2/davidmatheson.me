@@ -1,0 +1,38 @@
+// =============================================================================
+// Colors
+// =============================================================================
+$blue-primary                  : #002fa7;
+$white-core                    : #fff;
+$black-core                    : #1b1b1b;
+$grey-primary                  : #828282;
+
+// =============================================================================
+// Fonts
+// =============================================================================
+$font-stack--serif             : 'Marcellus', serif;
+$font-stack--sans-serif        : 'Roboto', sans-serif;
+$font-weight--normal           : 400;
+$font-weight--light            : 300;
+$font-weight--lightest         : 100;
+
+// =============================================================================
+// Font Sizes and Leading
+// =============================================================================
+$font-size-base                : 16px;
+$font-size-small               : .875   * $font-size-base;    // 14px
+$font-size-post-link           : 1.5    * $font-size-base;    // 24px
+$font-size-post-subtitle       : 2      * $font-size-base;    // 32px
+$font-size-page-heading        : 3      * $font-size-base;    // 48px
+$leading                       : 1.5    * $font-size-base;    // 24px
+$line-height-body-copy         : 4    + $leading;             // 28px
+
+// =============================================================================
+// Misc
+// =============================================================================
+$spacing-unit                  : 30px;
+$half-spacing-unit             : $spacing-unit / 2;
+$content-width                 : 800px;
+$content-width--smallest       : 445px;
+$content-width--largest        : 1400px;
+$page-heading-margin-top       : 50px;
+$page-heading-margin-bottom    : 80px;
