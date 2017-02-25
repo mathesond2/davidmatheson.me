@@ -8,9 +8,14 @@
 //    http://csswizardry.com/2013/04/shame-css/
 
 body {
+   // background: url(../images/me.png);
+   background-repeat: no-repeat;
+   background-size: 300px;
+    background-position: center;
    background-color: #fff;
    color: #002fa7;
-   font-family: 'Roboto', sans-serif;
+   // font-family: 'Roboto', sans-serif;
+   font-family: 'Marcellus', serif; //I like this
    a,
    .site-title {
       color: #002fa7;
