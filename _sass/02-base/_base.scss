@@ -1,15 +1,13 @@
 body {
- font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
+ font: 400 16px/1.5 $font-stack--sans-serif;
  color: $blue-primary;
  background-color: $white-core;
- font-family: $font-stack--serif;
  -webkit-text-size-adjust: 100%;
 }
 
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
-ul, ol, dl, figure,
-%vertical-rhythm {
+ul, ol, dl, figure {
    margin-bottom: $spacing-unit / 2;
 }
 
