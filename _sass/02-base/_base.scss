@@ -1,5 +1,5 @@
 body {
- font: 400 16px/1.5 $font-stack--serif;
+ font: $font-weight--normal 16px/1.5 $font-stack--serif;
  color: $blue-primary;
  background-color: $white-core;
  -webkit-text-size-adjust: 100%;
@@ -8,7 +8,7 @@ body {
 h1, h2, h3, h4, h5, h6,
 p, blockquote, pre,
 ul, ol, dl, figure {
-   margin-bottom: $spacing-unit / 2;
+   margin-bottom: $half-spacing-unit;
 }
 
 a,
@@ -24,7 +24,7 @@ a,
 
 p {
    font-family: $font-stack--sans-serif;
-   line-height: 28px;
+   line-height: $line-height-body-copy;
 }
 
 .wrapper {
@@ -35,22 +35,14 @@ p {
    padding-right: $spacing-unit;
    padding-left: $spacing-unit;
 
-   @include media-query($on-laptop) {
+   @include media-query($content-width) {
      max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit}));
      max-width:         calc(#{$content-width} - (#{$spacing-unit}));
-     padding-right: $spacing-unit / 2;
-     padding-left: $spacing-unit / 2;
+     padding-right: $half-spacing-unit;
+     padding-left: $half-spacing-unit;
    }
 }
 
 .wide-wrapper {
-   max-width: 1400px;
-}
-
-%clearfix {
-   &:after {
-     content: "";
-     display: table;
-     clear: both;
-   }
+   max-width: $content-width--largest;
 }

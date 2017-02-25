@@ -8,13 +8,13 @@
 }
 
 .page-heading {
-   margin-top: 50px;
-   margin-bottom: 80px;
+   margin-top: $page-heading-margin-top;
+   margin-bottom: $page-heading-margin-bottom;
    font: {
       size: $font-size-page-heading;
       weight: $font-weight--lightest;
    }
-   @media screen and (max-width: 445px) {
+   @media screen and (max-width: $content-width--smallest) {
       font-size: $font-size-post-subtitle;
    }
 }
@@ -56,7 +56,7 @@
 
 .post-link {
    display: block;
-   font-size: 24px;
+   font-size: $font-size-post-link;
 }
 
 .post-header,
