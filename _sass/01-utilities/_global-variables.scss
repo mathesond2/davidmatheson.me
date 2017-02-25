@@ -24,21 +24,6 @@ $leading                       : 1.5    * $font-size-base;    // 24px
 $line-height-body-copy         : 1.5    * $leading;           // 36px
 
 // =============================================================================
-// Grid Sizes
-// =============================================================================
-$grid-column                   : 60px;                        // 60px
-$grid-gutter                   : $grid-column / 3;            // 20px
-$grid-column-full              : $grid-column + $grid-gutter; // 80px
-
-// =============================================================================
-// Responsive Breakpoints
-// =============================================================================
-$width-16u                     : 16 * $grid-column-full;      // 1280px
-$width-12u                     : 12 * $grid-column-full;      // 960px
-$width-8u                      : 8 * $grid-column-full;       // 640px
-$width-4u                      : 4 * $grid-column-full;       // 320px
-
-// =============================================================================
 // Jekyll variables // TODO: delete these.
 // =============================================================================
 $base-font-family              : "Helvetica Neue", Helvetica, Arial, sans-serif;
