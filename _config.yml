@@ -9,7 +9,7 @@
 title: David Matheson
 email: mathesond2@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
-  David Matheson is a designer and front end developer in New York City.
+  David Matheson, Front-end Developer, New York City
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: mathesondavid
