@@ -22,14 +22,11 @@ body {
    }
 }
 
-
-footer {
-   li {
-      display: inline-block;
-      margin-right: 20px;
-   }
+.social-media-list-item {
+   display: inline-block;
+   margin-right: 20px;
+   font-weight: 100;
 }
-
 
 .page-heading {
    margin-top: 50px;
@@ -38,4 +35,18 @@ footer {
       size: 48px;
       weight: 100;
    }
+}
+
+.post-content {
+   font-family: 'Roboto', sans-serif;
+   font-weight: 300;
+   font-size: 16px;
+}
+
+.circle-icon {
+   width: 40px;
+   height: 40px;
+   margin-top: 20px;
+   border-radius: 50%;
+   background-color: #002fa7;
 }
