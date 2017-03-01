@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Visual Regression Testing with BackstopJS
+title: "Visual Regression Testing with BackstopJS"
 date: 2017-02-26
 categories: talk
 ---
