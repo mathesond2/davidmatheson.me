@@ -11,4 +11,6 @@ This is the first larger-scale talk I've done at IBM, under a program called FED
 
 1.[ More in-depth writing, presentation, and demo code](https://github.com/mathesond2/visual-regression-testing)
 
-2.[ Video](https://www.youtube.com/watch?v=l8lGj8Zh0k4)
+2.Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/l8lGj8Zh0k4" frameborder="0" allowfullscreen></iframe>
