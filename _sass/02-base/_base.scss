@@ -46,3 +46,11 @@ p {
 .wide-wrapper {
    max-width: $content-width--largest;
 }
+
+code {
+   background-color: rgba(27,31,35,0.05);
+   font: {
+      family: 'Menlo', 'Courier', 'monospace';
+      size: 82%;
+   }
+}
