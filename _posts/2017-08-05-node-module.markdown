@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Side Project: 'Words Without Translation', a NPM Package"
+title: "Side Project: 'Words Without Translation' NPM Package"
 date: 2017-08-05
 categories: side project
 ---
