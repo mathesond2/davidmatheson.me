@@ -6,17 +6,6 @@ categories: side project
 ---
 
 ````
-let getRandomWord = wordsWithoutTranslation.getRandomWord();
-console.log(getRandomWord);
-
-/*
-{ name: 'Fernweh',
-  meaning: 'A strong longing to be away, to go somewhere.',
-  language: 'German',
-  tags: [ 'desire', 'feeling', 'travel' ] }
-*/
-
-
 let getRandomWordWithLanguage = wordsWithoutTranslation.getRandomWordWithLanguage('Chinese');
 console.log(getRandomWordWithLanguage);
 
