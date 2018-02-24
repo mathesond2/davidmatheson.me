@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Side Project: Pomodoro Timer"
+title: "Pomodoro Timer"
 date: 2017-07-05
 categories: project
 ---

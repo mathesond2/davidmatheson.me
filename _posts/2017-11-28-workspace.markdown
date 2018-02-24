@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Side Project: Real time Workspaces For Remote Collaboration"
+title: "Real time Workspaces For Remote Collaboration"
 date: 2017-11-28
 categories: project
 ---
