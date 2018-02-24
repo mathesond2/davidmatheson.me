@@ -2,7 +2,7 @@
 layout: post
 title: "2.5 years at IBM Watson Health"
 date: 2017-02-24
-categories: misc
+categories: work
 ---
 
 As a Front-end Developer at IBM Watson Health, I worked on a few different products within the Healthcare space aimed at giving physicians better tools for making treatment decisions and patient care in general. My role was quite cross-functional, being not only responsible for the creation and maintenance of user interfaces, but being involved in the user research behind them: actively participating in user interviews, heuristic evaluations, and Design Thinking workshops to obtain a deeper understanding of the problem space we designed and developed for.

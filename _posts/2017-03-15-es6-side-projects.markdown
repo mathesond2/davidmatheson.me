@@ -2,7 +2,7 @@
 layout: post
 title: "small ES6 projects"
 date: 2017-03-15
-categories: misc
+categories: project
 ---
 
 For the past couple months, I've been creating small projects on my off-time to get a better feel for ES6, make cool things that I want to see, and to write Javascript all the time. This effort is ongoing, but I figured I'd share my most recent work. Lets start from the top.

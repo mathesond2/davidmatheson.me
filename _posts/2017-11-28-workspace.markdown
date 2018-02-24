@@ -2,7 +2,7 @@
 layout: post
 title: "Side Project: Real time Workspaces For Remote Collaboration"
 date: 2017-11-28
-categories: side-project
+categories: project
 ---
 
 [![Image of Workspace](../../../../images/workspace.png)](https://mathesond2.github.io/pomodoro/ "Workspace Project")

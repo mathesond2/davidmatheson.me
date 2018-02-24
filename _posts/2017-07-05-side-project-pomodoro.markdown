@@ -2,7 +2,7 @@
 layout: post
 title: "Side Project: Pomodoro Timer"
 date: 2017-07-05
-categories: side-project
+categories: project
 ---
 
 [![Image of Pomodoro Timer](../../../../images/pomodoro.png)](https://mathesond2.github.io/pomodoro/ "Pomodoro Timer Project")

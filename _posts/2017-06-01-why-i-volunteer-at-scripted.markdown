@@ -2,7 +2,6 @@
 layout: post
 title: "Why I Volunteer At ScriptEd"
 date: 2017-06-01
-categories: misc
 ---
 
 Prior to working on the web, I was a substitute teacher in the U.S. and also an ESL teacher in South Korea. The experiences I had, particularly as a recent grad in the midst of The Great Recession, helped sharpen my focus to social inequalities within my own country, and prompted a desire to be a force for changing it within. Upon landing my first job in software, I began to seek out opportunities in my community, and over the next couple years I volunteered at several EdTech nonprofits aimed at teaching programming classes to a variety of learners, from [professionals looking for a career change](https://www.charlestondigitalcorridor.com/) to [elementary students](https://www.facebook.com/digibridgeUS/) learning about prototyping through paper airplanes and Scratch lessons. Currently, I volunteer at ScriptEd, a NYC-based non-profit that teaches programming classes in under-resourced schools. I love it, and teaching at ScriptEd has allowed me to meet an incredible community, watch a phenomenal group of students grow, and enriched my own practice as a software developer.
