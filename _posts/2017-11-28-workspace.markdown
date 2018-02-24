@@ -13,5 +13,5 @@ Being my first full-stack app, this has been easily one of the funnest things I'
 
 Next steps are to focus on the front end, implementing a JS framework for further maintainability, and collaborating with a UX Designer to find out how to push this project to the next level.
 
-[Project](https://collaborative-workspace.herokuapp.com/)
-[Code](https://github.com/mathesond2/workspace)
+1. [Project](https://collaborative-workspace.herokuapp.com/)
+2. [Code](https://github.com/mathesond2/workspace)
