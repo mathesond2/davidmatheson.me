@@ -2,13 +2,10 @@
 layout: post
 title: "Side Project: Pomodoro Timer"
 date: 2017-07-05
-categories: side project
+categories: side-project
 ---
 
 [![Image of Pomodoro Timer](../../../../images/pomodoro.png)](https://mathesond2.github.io/pomodoro/ "Pomodoro Timer Project")
-
-
-[![Sanity Checks with BackstopJS screenshot](../../../../images/updog-diff.png)](https://www.youtube.com/watch?v=l8lGj8Zh0k4 "Sanity Checks with BackstopJS")
 
 ReactJS has piqued my interest pretty hard lately, so I took [Wes Bos' Course](https://github.com/mathesond2/react-course) on ReactJS and then made this simple Pomodoro Technique app for better focus as I work on projects. There's plenty written about the Pomodoro Technique's effectiveness, but here's the gist:
 
