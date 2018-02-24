@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Lately, at IBM"
+title: "2.5 years at IBM Watson Health"
 date: 2017-02-24
 categories: misc
 ---
 
-For almost two years, I've worked on a design team as a Front-end Developer at IBM Watson Health, working on a few different products within the Healthcare space aimed at giving physicians better tools for making treatment decisions and patient care in general. My role has been quite cross-functional, not only being responsible for the creation and maintenance of user interfaces, but being involved in the user research behind them: actively participating in user interviews, heuristic evaluations, and Design Thinking workshops to obtain a deeper understanding of the problem space we design and develop for.
+As a Front-end Developer at IBM Watson Health, I worked on a few different products within the Healthcare space aimed at giving physicians better tools for making treatment decisions and patient care in general. My role was quite cross-functional, being not only responsible for the creation and maintenance of user interfaces, but being involved in the user research behind them: actively participating in user interviews, heuristic evaluations, and Design Thinking workshops to obtain a deeper understanding of the problem space we designed and developed for.
 
 #### The first product
 
@@ -17,6 +17,10 @@ My team was the first and only design team geared towards understanding the EMR 
 
 The second product I worked on was aimed at taking both existing and future Watson Health capabilities and connecting them based on sensible user experiences rather than features. A solid amount of time was spent in research and in workshops with stakeholders in understanding the current problem space and context by which existing capabilities work in. As the sole Front-end Developer on my team, I spent 4 months creating an extensive prototype for user testing and further concept validation. After this project, I figured it would be necessary to break out the 32 individual components into their own 'components' repo, and with a bit of light refactoring, I did just that. This greatly assisted connecting the project's vision with the existing products' roadmap. As developers and product designers, we often wish to work from a clean slate, but that's nearly never the case, so componentizing the prototype work was a huge benefit in putting a real timeline to the work that had been done. The end product also acted as the first code contributions to the Watson Health Design Guide, so not too shabby.
 
-#### And Lately?
+#### On To Production
 
-Currently, I'm working on the Watson For Oncology product, which is aimed at helping physicians to give treatment recommendations based on machine learning models trained from academic institutions like Memorial-Sloan Kettering and MD Anderson. My team has been focused on improving the existing product, and using our prototype work as a base to jump start our work. Most recently I've created a prototype to assist physicians in a better form entry experience, abstracting away details necessary for Watson to gain a deeper insight into a patient's condition.
+I enjoyed prototyping and working alongside designers, but as a front end developer, I wanted to be pushing production level code on a regular basis. I jumped at the chance to join other teams when possible, working with folks on the Watson For Clinical Trial Matching product in addition to Watson For Oncology.
+
+For Clinical Trial Matching, I refactored the Sass portion of the codebase, giving it a structure to be more maintainable over time, reduce dead code, and help others easily navigate what was initially a series of very, very long `.scss` files. Additionally, I created a prototype for a to-be feature for Clinical Trial Coordinators as well as a couple prototypes for addressing minor UX bugs in the existing app, which thankfully came to a unanimous buy-in.
+
+My last six months were spent purely working on Watson For Oncology, which is a product aimed at helping physicians to give treatment recommendations based on machine learning models trained from academic institutions like Memorial-Sloan Kettering and MD Anderson. Working on the UI squad, my colleagues and I were tasked with creating a re-write of Watson For Oncology, going from Angular 1.5 to Angular 4, re-using existing code where possible, and implementing a new user experience driven by the design team's research insights. This effort was actually 3-fold, with each new component being created generically, passing the necessary IBM Globalization and Accessibility tests, and being saved as part of an Angular 4x UI component library to be reused across several existing Watson Health products (Clinical Trial Matching, Watson For Genomics, etc). Working on Watson For Oncology was a solid way to wrap up my time at IBM, and gave a true feeling of satisfaction to know that your work is used daily to improve physician workflows and hopefully, patient outcomes. 😊
