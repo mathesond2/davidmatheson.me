@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "gitIn: my first Product"
+title: "gitIn: My First Product"
 date: 2019-04-22
 categories: product
 ---
@@ -11,7 +11,7 @@ A couple months back, I was chatting with a friend of mine who runs a small co. 
 
 He solely wanted a place to point non-Github users in the co. to so they could submit their own issues without needing others to write it for them. I wondered, "how many other people in smaller companies have this issue?" and thus, the idea for this MVP was born. Using ExpressJS, PassportJS, mongoDB, and a few other tools, I created gitIn, a one-stop shop that allows any authorized folks to create issues within your Github org. As long as you have an account with Heroku, you can create your own instance (with your own DB) completely free.
 
-1.[ gitIn](https://gitin.dev/)
+1.[gitIn](https://gitin.dev/)
 
 2.Demo
 
